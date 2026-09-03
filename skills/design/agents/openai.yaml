@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Partner"
+  short_description: "Audit, redesign, and ship polished interfaces"
+  default_prompt: "Use $design to audit this interface and implement the highest-impact improvements."
