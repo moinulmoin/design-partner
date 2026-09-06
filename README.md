@@ -47,9 +47,11 @@ Add this repository's community-maintained marketplace, then install the plugin:
 
 Invoke the namespaced skill with `/design-partner:design checkup the billing page; report only`. This is our repository marketplace, separate from Anthropic's reviewed community catalog. Both Claude manifests pass `claude plugin validate --strict`.
 
-### OpenAI plugin package
+### OpenAI Plugins Directory
 
-The repository includes `.codex-plugin/plugin.json` pointing to the same `skills/` folder. Its package passes the Codex plugin scaffold validator. OpenAI directory review is a separate submission step; no OpenAI directory approval is claimed. Until a listing is published, use the Codex skill installation below.
+[Open Design Partner in the Plugins Directory](https://chatgpt.com/plugins/plugins_6a9dc10fa94c8191ba6a8973f49509ea).
+
+Version 0.1.3 is approved and published under Ideaplexa LLC. The plugin packages the same `skills/` source used by the standalone installation. Availability in your host may depend on account and workspace settings.
 
 See [distribution status](DISTRIBUTION.md) for verified installation routes and submission progress.
 

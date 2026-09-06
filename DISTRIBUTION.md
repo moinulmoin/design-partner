@@ -1,13 +1,13 @@
 # Distribution and submission status
 
-Updated 2026-09-06. A downloadable package, a successful installation, a submitted application, and an approved directory listing are different milestones.
+Updated 2026-09-07. A downloadable package, a successful installation, a submitted application, and an approved directory listing are different milestones.
 
 | Destination | Verified status |
 |---|---|
 | GitHub | Public source and versioned releases. |
 | skills.sh | Public repository installation succeeded with `--skill design --agent codex --copy` in an isolated project. [The skill page](https://skills.sh/moinulmoin/design-partner/design) returned HTTP 200 with Design Partner content. |
 | Claude Code | Submitted for community review on 2026-09-06. Portal confirmed “Plugin submitted for review.” Approval is pending. Plugin and marketplace manifests pass strict CLI validation. |
-| OpenAI | Package uploaded and draft saved under Ideaplexa LLC. Automated skill scan and final publisher attestations are pending; submission is not yet complete. |
+| OpenAI | v0.1.3 approved and published on 2026-09-07 under Ideaplexa LLC. Portal confirmed Published and provided [View in Directory](https://chatgpt.com/plugins/plugins_6a9dc10fa94c8191ba6a8973f49509ea). |
 
 ## Directory routes
 
@@ -15,7 +15,7 @@ Updated 2026-09-06. A downloadable package, a successful installation, a submitt
 - [Claude submission guidance](https://code.claude.com/docs/en/plugins#submit-your-plugin-to-the-community-marketplace): submit through [Claude Console](https://platform.claude.com/plugins/submit). Reviewed third-party plugins go to `claude-community`; the official catalog is curated separately.
 - [OpenAI submission guidance](https://developers.openai.com/plugins/deploy/submission): submit a skills-only plugin through [OpenAI Platform](https://platform.openai.com/plugins). The publisher must select a verified identity and complete the required listing, tests, availability, and attestations.
 
-Claude submission receipt is confirmed; directory approval remains pending. OpenAI submission is incomplete. Do not advertise catalog acceptance until its status is confirmed.
+Claude submission receipt is confirmed; its directory approval remains pending. OpenAI approval and publication are confirmed in the publisher portal.
 
 ## Prepared listing copy
 
@@ -33,7 +33,7 @@ Starter prompts:
 - Fix keyboard and focus behavior in this flow.
 - Refine this page while preserving its brand.
 
-For OpenAI, Ideaplexa LLC is the selected verified identity, authorized by the maintainer. The package includes a logo, example screenshots, and public PRIVACY.md and TERMS.md pages. The upload and listing fields are saved; automated scanning and final policy attestations remain. The provenance note is not a completed rights review.
+For OpenAI, Ideaplexa LLC is the selected verified identity, authorized by the maintainer. The package includes a logo, example screenshots, and public PRIVACY.md and TERMS.md pages. Automated checks cleared, the authorized attestations were confirmed, and v0.1.3 was submitted, approved, and published. The provenance note is not a completed rights review.
 
 Observed uploader behavior: skills-only ZIP uploads omit `interface.screenshots` with a warning. The logo, skill, and other listing metadata imported. The subtitle was shortened to “Audit and improve interfaces” to fit the portal's 30-character limit. The current skills-only form exposes Info, Prompts, Skills, and Submit sections; additional fields described in general documentation were not presented in this flow.
 
