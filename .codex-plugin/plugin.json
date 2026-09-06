@@ -13,7 +13,7 @@
   "keywords": ["design", "frontend", "accessibility", "ui", "ux"],
   "interface": {
     "displayName": "Design Partner",
-    "shortDescription": "Audit, redesign, and refine interfaces",
+    "shortDescription": "Audit and improve interfaces",
     "longDescription": "19 focused design modes for existing project files, including report-only audits, accessibility repairs, responsive layouts, typography, and visual refinement.",
     "developerName": "Ideaplexa LLC",
     "category": "Productivity",

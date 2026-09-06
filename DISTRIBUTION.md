@@ -7,7 +7,7 @@ Updated 2026-09-06. A downloadable package, a successful installation, a submitt
 | GitHub | Public source and versioned releases. |
 | skills.sh | Public repository installation succeeded with `--skill design --agent codex --copy` in an isolated project. [The skill page](https://skills.sh/moinulmoin/design-partner/design) returned HTTP 200 with Design Partner content. |
 | Claude Code | Submitted for community review on 2026-09-06. Portal confirmed “Plugin submitted for review.” Approval is pending. Plugin and marketplace manifests pass strict CLI validation. |
-| OpenAI | Signed in; Ideaplexa LLC publisher identity authorized. Package upload is blocked by browser-extension file access. Submission has not been completed. |
+| OpenAI | Package uploaded and draft saved under Ideaplexa LLC. Automated skill scan and final publisher attestations are pending; submission is not yet complete. |
 
 ## Directory routes
 
@@ -33,7 +33,9 @@ Starter prompts:
 - Fix keyboard and focus behavior in this flow.
 - Refine this page while preserving its brand.
 
-For OpenAI, Ideaplexa LLC is the selected verified identity, authorized by the maintainer. The package includes a logo, example screenshots, and public PRIVACY.md and TERMS.md pages. Portal upload, supported-region selection, and final policy attestations remain to be completed. The provenance note is not a completed rights review.
+For OpenAI, Ideaplexa LLC is the selected verified identity, authorized by the maintainer. The package includes a logo, example screenshots, and public PRIVACY.md and TERMS.md pages. The upload and listing fields are saved; automated scanning and final policy attestations remain. The provenance note is not a completed rights review.
+
+Observed uploader behavior: skills-only ZIP uploads omit `interface.screenshots` with a warning. The logo, skill, and other listing metadata imported. The subtitle was shortened to “Audit and improve interfaces” to fit the portal's 30-character limit. The current skills-only form exposes Info, Prompts, Skills, and Submit sections; additional fields described in general documentation were not presented in this flow.
 
 ## Reviewer test cases
 
