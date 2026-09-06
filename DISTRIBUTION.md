@@ -7,7 +7,7 @@ Updated 2026-09-07. A downloadable package, a successful installation, a submitt
 | GitHub | Public source and versioned releases. |
 | skills.sh | Public repository installation succeeded with `--skill design --agent codex --copy` in an isolated project. [The skill page](https://skills.sh/moinulmoin/design-partner/design) returned HTTP 200 with Design Partner content. |
 | Claude Code | Submitted for community review on 2026-09-06. Portal confirmed “Plugin submitted for review.” Approval is pending. Plugin and marketplace manifests pass strict CLI validation. |
-| OpenAI | v0.1.3 approved and published on 2026-09-07 under Ideaplexa LLC. Portal confirmed Published and provided [View in Directory](https://chatgpt.com/plugins/plugins_6a9dc10fa94c8191ba6a8973f49509ea). |
+| OpenAI | v0.1.5 approved and published on 2026-09-07 under Ideaplexa LLC. Portal confirmed Published with the revised subtitle and description. [View in Directory](https://chatgpt.com/plugins/plugins_6a9dc10fa94c8191ba6a8973f49509ea). |
 
 ## Directory routes
 
@@ -25,7 +25,7 @@ Short description: Audit, redesign, and refine interfaces.
 
 Revised subtitle for the next listing update: Build, critique, and polish UI.
 
-The proposed full description is maintained in `.codex-plugin/plugin.json` under `interface.longDescription`. It now includes motion, brand expression, tokenization, and real-data resilience alongside audits, new builds, and accessibility. This revised copy is prepared on the repository's main branch as unreleased v0.1.5; the live OpenAI listing remains v0.1.3. The v0.1.4 browser upload was denied and no subsequent upload has been attempted.
+The published full description is maintained in `.codex-plugin/plugin.json` under `interface.longDescription`. It includes motion, brand expression, tokenization, and real-data resilience alongside audits, new builds, and accessibility. The revised copy was uploaded, approved, and published as v0.1.5 following renewed upload authorization.
 
 Publisher: Moinul Moin. Website: https://github.com/moinulmoin/design-partner. Support: https://github.com/moinulmoin/design-partner/issues. License: MIT; see PROVENANCE.md for origin and third-party boundaries.
 
@@ -35,7 +35,7 @@ Starter prompts:
 - Fix keyboard and focus behavior in this flow.
 - Refine this page while preserving its brand.
 
-For OpenAI, Ideaplexa LLC is the selected verified identity, authorized by the maintainer. The package includes a logo, example screenshots, and public PRIVACY.md and TERMS.md pages. Automated checks cleared, the authorized attestations were confirmed, and v0.1.3 was submitted, approved, and published. The provenance note is not a completed rights review.
+For OpenAI, Ideaplexa LLC is the selected verified identity, authorized by the maintainer. The package includes a logo, example screenshots, and public PRIVACY.md and TERMS.md pages. Automated checks cleared, the authorized attestations were confirmed, and v0.1.5 was submitted, approved, and published. The provenance note is not a completed rights review.
 
 Observed uploader behavior: skills-only ZIP uploads omit `interface.screenshots` with a warning. The logo, skill, and other listing metadata imported. The subtitle was shortened to “Audit and improve interfaces” to fit the portal's 30-character limit. The current skills-only form exposes Info, Prompts, Skills, and Submit sections; additional fields described in general documentation were not presented in this flow.
 

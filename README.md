@@ -53,7 +53,7 @@ Invoke the namespaced skill with `/design-partner:design checkup the billing pag
 
 [Open Design Partner in the Plugins Directory](https://chatgpt.com/plugins/plugins_6a9dc10fa94c8191ba6a8973f49509ea).
 
-Version 0.1.3 is approved and published under Ideaplexa LLC. The plugin packages the same `skills/` source used by the standalone installation. Availability in your host may depend on account and workspace settings.
+Version 0.1.5 is approved and published under Ideaplexa LLC. The plugin packages the same `skills/` source used by the standalone installation. Availability in your host may depend on account and workspace settings.
 
 See [distribution status](DISTRIBUTION.md) for verified installation routes and submission progress.
 
@@ -64,7 +64,7 @@ Requires Git and Python 3.9 or newer:
 ```sh
 git clone https://github.com/moinulmoin/design-partner.git
 cd design-partner
-git checkout v0.1.3
+git checkout v0.1.5
 python3 scripts/install.py
 ```
 
@@ -178,11 +178,11 @@ Installed copies do not update automatically. In your repository checkout, fetch
 
 ```sh
 git fetch origin --tags
-git checkout v0.1.3
+git checkout v0.1.5
 python3 scripts/install.py
 ```
 
-Replace `v0.1.3` with the desired published tag. If you installed for one project, pass the same `--destination` again. Preserve any edits in the repository checkout before switching versions.
+Replace `v0.1.5` with the desired published tag. If you installed for one project, pass the same `--destination` again. Preserve any edits in the repository checkout before switching versions.
 
 To restore an installation, move the current `design` directory aside, then move the chosen timestamped backup into its place as `design`. Your prior files are retained in the backup, including local customizations.
 
