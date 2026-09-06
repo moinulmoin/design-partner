@@ -6,8 +6,8 @@ Updated 2026-09-06. A downloadable package, a successful installation, a submitt
 |---|---|
 | GitHub | Public source and versioned releases. |
 | skills.sh | Public repository installation succeeded with `--skill design --agent codex --copy` in an isolated project. [The skill page](https://skills.sh/moinulmoin/design-partner/design) returned HTTP 200 with Design Partner content. |
-| Claude Code | Plugin and repository marketplace manifests pass strict CLI validation. Reviewed community-catalog submission awaits portal sign-in. |
-| OpenAI | Codex plugin manifest passes package validation. Skills-only directory submission awaits portal sign-in and completion of publisher/listing requirements. |
+| Claude Code | Submitted for community review on 2026-09-06. Portal confirmed “Plugin submitted for review.” Approval is pending. Plugin and marketplace manifests pass strict CLI validation. |
+| OpenAI | Signed in; Ideaplexa LLC publisher identity authorized. Package upload is blocked by browser-extension file access. Submission has not been completed. |
 
 ## Directory routes
 
@@ -15,7 +15,7 @@ Updated 2026-09-06. A downloadable package, a successful installation, a submitt
 - [Claude submission guidance](https://code.claude.com/docs/en/plugins#submit-your-plugin-to-the-community-marketplace): submit through [Claude Console](https://platform.claude.com/plugins/submit). Reviewed third-party plugins go to `claude-community`; the official catalog is curated separately.
 - [OpenAI submission guidance](https://developers.openai.com/plugins/deploy/submission): submit a skills-only plugin through [OpenAI Platform](https://platform.openai.com/plugins). The publisher must select a verified identity and complete the required listing, tests, availability, and attestations.
 
-The submission pages reached signed-out states during this pass. No application has been submitted or approved. Do not advertise catalog acceptance until its status is confirmed.
+Claude submission receipt is confirmed; directory approval remains pending. OpenAI submission is incomplete. Do not advertise catalog acceptance until its status is confirmed.
 
 ## Prepared listing copy
 
