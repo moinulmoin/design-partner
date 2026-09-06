@@ -1,6 +1,4 @@
-# Design Partner
-
-<img src="assets/logo.png" alt="Design Partner logo" width="80" height="80">
+<h1><img src="assets/logo.png" alt="" width="40" height="40" align="absmiddle"> Design Partner</h1>
 
 Give your coding agent a practical workflow for designing, reviewing, and improving interfaces.
 
