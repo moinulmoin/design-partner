@@ -6,6 +6,8 @@ Design Partner helps an agent inspect your product, identify concrete problems, 
 
 [Latest release](https://github.com/moinulmoin/design-partner/releases/latest) · [Skill source](skills/design/SKILL.md) · [Changelog](CHANGELOG.md) · [MIT license](LICENSE)
 
+[View on skills.sh](https://skills.sh/moinulmoin/design-partner/design)
+
 ```text
 $design checkup the billing page; report only
 $design a11y fix keyboard navigation in the signup flow
@@ -24,6 +26,33 @@ The skill is a folder of instructions and references. Your agent supplies the mo
 
 ## Install
 
+### With the skills CLI
+
+Install from GitHub using the [skills.sh CLI](https://skills.sh/docs/cli):
+
+```sh
+npx skills add moinulmoin/design-partner --skill design
+```
+
+The CLI lets you choose the target agent and install scope. For a global Codex installation, add `--agent codex --global`. Review or back up an existing `design` skill first; the backup behavior described below belongs to this repository's Python installer, not the skills CLI.
+
+### Claude Code plugin
+
+Add this repository's community-maintained marketplace, then install the plugin:
+
+```text
+/plugin marketplace add moinulmoin/design-partner
+/plugin install design-partner@design-partner
+```
+
+Invoke the namespaced skill with `/design-partner:design checkup the billing page; report only`. This is our repository marketplace, separate from Anthropic's reviewed community catalog. Both Claude manifests pass `claude plugin validate --strict`.
+
+### OpenAI plugin package
+
+The repository includes `.codex-plugin/plugin.json` pointing to the same `skills/` folder. Its package passes the Codex plugin scaffold validator. OpenAI directory review is a separate submission step; no OpenAI directory approval is claimed. Until a listing is published, use the Codex skill installation below.
+
+See [distribution status](DISTRIBUTION.md) for verified installation routes and submission progress.
+
 ### Codex: available across your projects
 
 Requires Git and Python 3.9 or newer:
@@ -31,7 +60,7 @@ Requires Git and Python 3.9 or newer:
 ```sh
 git clone https://github.com/moinulmoin/design-partner.git
 cd design-partner
-git checkout v0.1.1
+git checkout v0.1.2
 python3 scripts/install.py
 ```
 
@@ -143,11 +172,11 @@ Installed copies do not update automatically. In your repository checkout, fetch
 
 ```sh
 git fetch origin --tags
-git checkout v0.1.1
+git checkout v0.1.2
 python3 scripts/install.py
 ```
 
-Replace `v0.1.1` with the desired published tag. If you installed for one project, pass the same `--destination` again. Preserve any edits in the repository checkout before switching versions.
+Replace `v0.1.2` with the desired published tag. If you installed for one project, pass the same `--destination` again. Preserve any edits in the repository checkout before switching versions.
 
 To restore an installation, move the current `design` directory aside, then move the chosen timestamped backup into its place as `design`. Your prior files are retained in the backup, including local customizations.
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.2 — 2026-09-06
+
+- Add Codex and Claude plugin manifests sharing the existing skill source.
+- Add a Claude repository marketplace and documented namespaced invocation.
+- Verify installation through the skills.sh CLI.
+- Document distribution status and reviewer test cases without claiming directory approval.
+
 ## 0.1.1 — 2026-09-06
 
 - Clarify execution boundaries for audits and brief-only setup.

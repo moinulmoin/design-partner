@@ -1,0 +1,12 @@
+{
+  "name": "design-partner",
+  "description": "Design Partner interface design and accessibility workflows.",
+  "owner": {"name": "Moinul Moin"},
+  "plugins": [
+    {
+      "name": "design-partner",
+      "source": "./",
+      "description": "19 focused modes for interface audits, accessibility, and implementation."
+    }
+  ]
+}
