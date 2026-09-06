@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.5 — Unreleased
+## 0.1.5 — 2026-09-07
 
 - Adopt the subtitle “Build, critique, and polish UI”.
 - Describe the full workflow, including motion, brand expression, reusable components, and real-data resilience.
