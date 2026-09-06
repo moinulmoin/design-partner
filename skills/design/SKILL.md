@@ -52,7 +52,7 @@ Read [references/foundations.md](references/foundations.md) for composition and 
    For `a11y`, or changes to controls, forms, overlays, or motion, also read [references/accessibility.md](references/accessibility.md) and apply its relevant sections. A narrow edit does not authorize a whole-app remediation.
 2. Inspect before editing. Prefer existing components, tokens, icons, and dependencies.
 3. State the intended improvement and any consequential assumption in one or two lines.
-4. Make cohesive changes in real files. Do not deliver a Markdown mockup in place of implementation.
+4. For implementation requests, make cohesive changes in real files. For report-only requests, produce the selected audit report and leave product files unchanged. For `setup`, update only the brief unless implementation is also requested.
 5. Exercise realistic content and states, including long, empty, loading, error, disabled, and permission-limited cases when relevant.
 6. Run the strongest available verification from [references/verification.md](references/verification.md).
 7. Report what changed, what was verified, and any remaining risk. Recommend at most two logical follow-up modes.

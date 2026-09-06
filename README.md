@@ -12,11 +12,14 @@ Clone this repository, then copy `skills/design` into your agent's skill directo
 
 ```sh
 git clone https://github.com/moinulmoin/design-partner.git
-mkdir -p ~/.agents/skills
-cp -R design-partner/skills/design ~/.agents/skills/
+cd design-partner
+git checkout v0.1.1
+python3 scripts/install.py
 ```
 
-If `~/.agents/skills/design` already exists, back it up and compare before replacing it. For a project-scoped installation, use `<project>/.agents/skills/design` instead. Start a new agent session if the skill does not appear in discovery. The display name is **Design Partner**; the skill identifier is `design`.
+Requires Python 3.9+. The installer replaces the complete skill directory and preserves an existing copy in `~/.agents/skills/.design-backups/` with a timestamp. It refuses symlink destinations. To restore, move the current `design` folder aside and move the selected backup back to `design`. For a project installation, pass `--destination /path/to/project/.agents/skills/design`. Start a new agent session if the skill does not appear in discovery. The display name is **Design Partner**; the skill identifier is `design`.
+
+To update, fetch tags in this checkout, review the desired release, check out that version, and rerun the installer. Local modifications to an installed copy survive in its backup; they are not merged automatically.
 
 ## Use
 
@@ -52,7 +55,7 @@ See [mode contracts](skills/design/references/modes.md) for scope. Explicit audi
 
 ## Quality and provenance
 
-Structural checks validate package integrity, not design quality. This initial release has not been benchmarked on real UI tasks or shown to match another agent's output quality.
+Structural checks validate package integrity, not design quality. A [recorded smoke evaluation](evaluations/2026-09-06.md) covers audit, accessibility, and refinement on a constructed signup interface. Independent real-project benchmarking and comparisons with other agents remain outstanding.
 
 The project was informed by inspecting Command Code's bundled design workflow, then condensed and rewritten. It is not a clean-room implementation, an exact replica, or an official integration. See [PROVENANCE.md](PROVENANCE.md) for the source history and limitations.
 
@@ -61,7 +64,9 @@ The project was informed by inspecting Command Code's bundled design workflow, t
 This repository's `skills/design/` directory is the canonical source. Edit here, review the diff, run checks, commit, and publish a version tag. Installed skill copies do not update automatically.
 
 ```sh
+python3 -m pip install -r requirements-dev.txt
 python3 scripts/validate.py
+python3 -m unittest discover -s tests
 git diff --check
 ```
 

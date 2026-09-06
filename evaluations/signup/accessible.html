@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fieldnotes — Join a workspace</title>
+<style>
+*{box-sizing:border-box}body{font:16px system-ui;background:#faf8f4;color:#292820;margin:0}
+main{max-width:780px;margin:40px auto;padding:24px;background:white}h1{font-size:24px}
+form{display:flex;flex-wrap:wrap;gap:12px;align-items:end}.field{flex:1 1 240px;min-width:0}
+label{display:block;margin-bottom:8px}input{width:100%;padding:12px;border:1px solid #767676;font:inherit}
+button{padding:12px;background:#254b36;color:white;font:inherit;border:0;cursor:pointer}
+:focus-visible{outline:3px solid #254b36;outline-offset:4px}p{line-height:1.5;overflow-wrap:anywhere}
+</style>
+<main><p>Fieldnotes</p><h1>Join your research workspace</h1>
+<p>Keep field observations and interview notes together. Enter your work email to request an invitation.</p>
+<form><div class="field"><label for="email">Work email</label><input id="email" name="email" type="email" autocomplete="email" required></div><button>Request invitation</button></form>
+<p id="result" role="status"></p><p>Your team administrator approves new members.</p></main>
+<script>document.querySelector('form').addEventListener('submit',event=>{event.preventDefault();document.getElementById('result').textContent='Invitation requested';});</script>
+</html>

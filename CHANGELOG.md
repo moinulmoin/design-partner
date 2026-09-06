@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.1.1 — 2026-09-06
+
+- Clarify execution boundaries for audits and brief-only setup.
+- Add a complete-directory installer with timestamped backups and failure recovery.
+- Parse YAML and validate local heading links; checks remain active with Python optimization enabled.
+- Add seven package and installer tests, including failed replacement recovery.
+- Record a self-run browser smoke evaluation with original, accessible, and refined signup fixtures and screenshots.
+
+Validation: local package tests passed; browser keyboard completion, 320px reflow, and axe checks passed on repaired fixtures. Production-app, screen-reader, native zoom, and independent model evaluation remain outstanding.
+
 ## 0.1.0 — 2026-09-04
 
 - Initial versioned release of Design Partner with 19 modes, including `create` and `a11y`.
