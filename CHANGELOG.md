@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.5 — Unreleased
+
+- Adopt the subtitle “Build, critique, and polish UI”.
+- Describe the full workflow, including motion, brand expression, reusable components, and real-data resilience.
+- Record a capability review against installed Command Code v1.50.0; no skill behavior changed.
+
 ## 0.1.4 — 2026-09-07
 
 - Rewrite directory copy around practical tasks, outcomes, and project requirements.

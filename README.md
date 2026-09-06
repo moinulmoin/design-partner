@@ -8,6 +8,8 @@ Design Partner helps an agent inspect your product, identify concrete problems, 
 
 [View on skills.sh](https://skills.sh/moinulmoin/design-partner/design)
 
+**Build, critique, and polish UI.** Work across layouts, typography, color, motion, accessibility, brand expression, reusable components, and real-data states.
+
 ```text
 $design checkup the billing page; report only
 $design a11y fix keyboard navigation in the signup flow
@@ -167,6 +169,8 @@ In the recorded browser pass, the original action was unreachable through Tab na
 [Read the evaluation and its limits](evaluations/2026-09-06.md), or open the [original](evaluations/signup/before.html), [accessible](evaluations/signup/accessible.html), and [refined](evaluations/signup/refined.html) HTML files locally. The example simulates submission; it sends no email.
 
 This was a self-run smoke test on a constructed fixture. It does not establish independent model reliability, production readiness, screen-reader coverage, or superiority over another design tool. Design quality still depends on the model, project context, references, and verification tools available.
+
+See the [capability coverage review](evaluations/2026-09-07-capability-review.md) for how the workflow compares with Command Code v1.50.0, including differences in depth and intentional departures.
 
 ## Update or restore
 

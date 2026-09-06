@@ -1,6 +1,6 @@
 {
   "name": "design-partner",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Audit, build, and refine interfaces with evidence-based findings and accessibility guidance.",
   "author": {
     "name": "Moinul Moin",
@@ -10,20 +10,33 @@
   "homepage": "https://github.com/moinulmoin/design-partner",
   "repository": "https://github.com/moinulmoin/design-partner",
   "license": "MIT",
-  "keywords": ["design", "frontend", "accessibility", "ui", "ux"],
+  "keywords": [
+    "design",
+    "frontend",
+    "accessibility",
+    "ui",
+    "ux"
+  ],
   "interface": {
     "displayName": "Design Partner",
-    "shortDescription": "Design and improve interfaces",
-    "longDescription": "Turn a rough interface into a clearer, more usable product. Design Partner helps you review a page, build a new screen, or improve an existing flow directly in your project.\n\nStart with a focused critique of a landing page, dashboard, form, or settings flow. Get prioritized findings that explain what is wrong, where it happens, why it affects users, and what to change. Ask for a report only, or follow up with implementation.\n\nImprove typography, spacing, color, responsive layouts, and interaction states. Repair keyboard navigation, form labels, focus behavior, and other accessibility barriers. Refine the current visual direction or explore a redesign while preserving the content and behavior you want to keep.\n\nDesign Partner works with your existing framework, components, and design tokens. It guides the agent to check its changes with the tools available and distinguish verified results from remaining gaps.\n\nTry: “Review my billing page without changing files,” “Fix the signup flow for keyboard users,” or “Polish this dashboard without changing its brand.”\n\nFor implementation, provide access to your project files. Browser checks require browser tools in your agent environment. No separate Design Partner account or service is needed.",
+    "shortDescription": "Build, critique, and polish UI",
+    "longDescription": "Build new screens, critique existing interfaces, or rethink an entire visual direction. Design Partner works in your project to improve layout, typography, color, motion, interaction states, and accessibility.\n\nIts 19 modes cover design audits, responsive layouts, brand expression, reusable components and tokens, and final polish. Remove generic AI-looking patterns, strengthen a landing page’s identity, or make a dashboard hold up to real data, loading, and errors.\n\nAsk for findings only or implementation. The agent uses your existing stack, carries relevant audit findings into follow-up work, and reports what it verified.",
     "developerName": "Ideaplexa LLC",
     "category": "Productivity",
-    "capabilities": ["Read", "Write"],
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
     "websiteURL": "https://github.com/moinulmoin/design-partner",
     "privacyPolicyURL": "https://github.com/moinulmoin/design-partner/blob/main/PRIVACY.md",
     "termsOfServiceURL": "https://github.com/moinulmoin/design-partner/blob/main/TERMS.md",
     "brandColor": "#254b36",
     "composerIcon": "./assets/logo.png",
     "logo": "./assets/logo.png",
-    "defaultPrompt": ["Review my billing page and prioritize improvements. Do not change files yet.", "Fix keyboard navigation, labels, and focus in my signup flow.", "Polish this dashboard's typography and spacing while preserving its brand and behavior."]
+    "defaultPrompt": [
+      "Review my billing page and prioritize improvements. Do not change files yet.",
+      "Fix keyboard navigation, labels, and focus in my signup flow.",
+      "Polish this dashboard's typography and spacing while preserving its brand and behavior."
+    ]
   }
 }

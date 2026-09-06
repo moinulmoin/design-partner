@@ -1,7 +1,7 @@
 {
   "name": "design-partner",
-  "version": "0.1.4",
-  "description": "Review pages, build screens, and improve UI directly in your project. Get actionable critiques, refine visual design, and repair accessibility using your existing components and framework.",
+  "version": "0.1.5",
+  "description": "Build, critique, and polish UI with 19 modes covering layouts, typography, color, motion, accessibility, brand expression, reusable components, and real-data resilience in your existing stack.",
   "author": {"name": "Moinul Moin", "url": "https://github.com/moinulmoin"},
   "homepage": "https://github.com/moinulmoin/design-partner",
   "repository": "https://github.com/moinulmoin/design-partner",

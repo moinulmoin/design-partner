@@ -23,7 +23,9 @@ Name: Design Partner
 
 Short description: Audit, redesign, and refine interfaces.
 
-Long description: Design Partner supplies 19 focused workflows for interface design in existing project files. It covers report-only audits, accessibility repairs, typography, responsive layout, visual refinement, and new screens. Findings include evidence and concrete corrections; verification reports distinguish checked behavior from remaining gaps. It uses the host agent's model and tools and requires no MCP service or separate account.
+Revised subtitle for the next listing update: Build, critique, and polish UI.
+
+The proposed full description is maintained in `.codex-plugin/plugin.json` under `interface.longDescription`. It now includes motion, brand expression, tokenization, and real-data resilience alongside audits, new builds, and accessibility. This revised copy is prepared on the repository's main branch as unreleased v0.1.5; the live OpenAI listing remains v0.1.3. The v0.1.4 browser upload was denied and no subsequent upload has been attempted.
 
 Publisher: Moinul Moin. Website: https://github.com/moinulmoin/design-partner. Support: https://github.com/moinulmoin/design-partner/issues. License: MIT; see PROVENANCE.md for origin and third-party boundaries.
 
