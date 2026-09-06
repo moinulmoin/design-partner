@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.4 — 2026-09-07
+
+- Rewrite directory copy around practical tasks, outcomes, and project requirements.
+- Add specific starter prompts for audits, signup accessibility, and dashboard refinement.
+- Omit the unsupported screenshot-gallery field from the OpenAI skills-only manifest.
+- Design skill behavior is unchanged.
+
 ## 0.1.3 — 2026-09-06
 
 - Complete OpenAI listing metadata with Ideaplexa LLC as publisher.
