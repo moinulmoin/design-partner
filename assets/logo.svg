@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Design Partner">
+  <rect width="512" height="512" rx="104" fill="#254b36"/>
+  <g fill="#faf8f4">
+    <rect x="112" y="120" width="288" height="56" rx="12"/>
+    <rect x="112" y="200" width="112" height="192" rx="12"/>
+    <rect x="248" y="200" width="152" height="80" rx="12"/>
+  </g>
+  <path d="m272 350 32 32 72-72" fill="none" stroke="#bfdbab" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

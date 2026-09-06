@@ -33,7 +33,7 @@ Starter prompts:
 - Fix keyboard and focus behavior in this flow.
 - Refine this page while preserving its brand.
 
-For OpenAI, verified identity, final logo, privacy and terms URLs, supported regions, and policy attestations still need completion. Do not invent publisher facts or represent the existing provenance note as a completed rights review.
+For OpenAI, Ideaplexa LLC is the selected verified identity, authorized by the maintainer. The package includes a logo, example screenshots, and public PRIVACY.md and TERMS.md pages. Portal upload, supported-region selection, and final policy attestations remain to be completed. The provenance note is not a completed rights review.
 
 ## Reviewer test cases
 

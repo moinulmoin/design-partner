@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.3 — 2026-09-06
+
+- Complete OpenAI listing metadata with Ideaplexa LLC as publisher.
+- Add an original geometric logo and bundled example screenshots.
+- Add privacy and usage pages describing the package and host-service boundaries.
+- Keep the underlying design skill unchanged.
+
 ## 0.1.2 — 2026-09-06
 
 - Add Codex and Claude plugin manifests sharing the existing skill source.
